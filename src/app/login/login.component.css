@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Mouse+Memoirs&family=Righteous&family=Shrikhand&display=swap');
+*{
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    background: linear-gradient(to right, rgb(208, 204, 207), rgb(84, 84, 98));
+}
+.row{
+    background: linear-gradient(black,white);
+}
+
+#container {
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+}
+
+input {
+    width: 55%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    outline: none;
+}
+h1{
+    color: rgb(165, 26, 61);
+}
